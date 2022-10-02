@@ -1,0 +1,27 @@
+.photo {
+	position: relative;
+	height: 600px;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
+	&__wrapper {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 60px;
+	}
+
+	&__title {
+		line-height: 20px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	&__descr {
+		line-height: 20px;
+		width: 300px;
+		color: #c0c0c0;
+	}
+}

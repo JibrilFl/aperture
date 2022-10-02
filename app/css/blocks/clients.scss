@@ -1,0 +1,12 @@
+.clients {
+	padding: 113px 0 140px;
+	text-align: center;
+
+	&__items {
+		margin-top: 80px;
+	}
+
+	&__item:not(:last-child) {
+		margin-right: 109px;
+	}
+}
