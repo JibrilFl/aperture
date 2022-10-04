@@ -35,4 +35,23 @@
 			content: none;
 		}
 	}
+
+	&_help {
+		margin: 0 auto;
+	}
+
+	&_footer {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 6px;
+		width: 63px;
+		height: 30px;
+		background: $black;
+		border-radius: 11px;
+
+		&::after {
+			content: none;
+		}
+	}
 }

@@ -1,0 +1,114 @@
+.footer {
+	padding: 100px 0;
+
+	&__top {
+		display: flex;
+		align-items: flex-start;
+
+		&_logo {
+			margin-right: auto;
+		}
+
+		&_logo-img {
+			margin-bottom: 20px;
+		}
+
+		&_logo-descr {
+			font-size: 13px;
+			line-height: 20px;
+			color: #c0c0c0;
+		}
+
+		&_item {
+			margin-right: 55px;
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+		}
+
+		&_item-title {
+			margin-bottom: 10px;
+			line-height: 20px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+
+			color: #c0c0c0;
+		}
+
+		&_item-link {
+			font-size: 13px;
+			line-height: 20px;
+		}
+
+		&_item-link:not(:last-child) {
+			margin-bottom: 10px;
+		}
+	}
+
+
+	&__middle {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		padding: 36px 0;
+		margin-top: 36px;
+		margin-bottom: 56px;
+		border-top: 2px solid $white;
+		border-bottom: 2px solid $white;
+
+		&_title {
+			margin-bottom: 20px;
+
+			line-height: 20px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
+		&_subtitle {
+			font-size: 13px;
+			line-height: 20px;
+			color: #c0c0c0;
+		}
+
+		&_form {
+			position: relative;
+			width: 458px;
+		}
+
+		&_input {
+			padding: 15px 79px 15px 10px;
+			width: 100%;
+			background: #f9fafb;
+			border: none;
+			outline: none;
+			outline-offset: 0;
+			border: 1px solid #e5e7eb;
+			border-radius: 12px;
+
+			font-family: 'Poppins', sans-serif;
+			font-weight: 400;
+			line-height: 20px;
+			font-size: 14px;
+		}
+	}
+
+	&__bottom {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		&_copy {
+			color: #c0c0c0;
+		}
+
+		&_socials {
+			display: flex;
+			align-items: center;
+		}
+
+		&_social:not(:last-child) {
+			margin-right: 20px;
+		}
+	}
+}

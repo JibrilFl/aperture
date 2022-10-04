@@ -3,6 +3,7 @@ body {
 	font-weight: 400;
 	background-color: $black;
 	color: $white;
+	line-height: 20px;
 	font-size: 14px;
 }
 
@@ -15,6 +16,9 @@ a {
 	max-width: 1300px;
 	padding: 0 10px;
 	margin: 0 auto;
+	&_footer {
+		max-width: 1188px;
+	}
 }
 
 .subtitle {
@@ -37,6 +41,12 @@ a {
 		line-height: 30px;
 		text-transform: capitalize;
 	}
+
+	&_help {
+		margin-bottom: 12px;
+		line-height: 30px;
+		text-transform: capitalize;
+	}
 }
 
 .title {
@@ -49,6 +59,12 @@ a {
 	}
 
 	&_clients {
+		margin-bottom: 15px;
+	}
+
+	&_help {
+		max-width: 575px;
+		margin: 0 auto;
 		margin-bottom: 15px;
 	}
 }
